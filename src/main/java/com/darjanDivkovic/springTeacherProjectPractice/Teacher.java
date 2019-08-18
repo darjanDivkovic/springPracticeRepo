@@ -32,6 +32,19 @@ public class Teacher {
 	}
 
 	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
 	// To String
 	@Override
 	public String toString() {
